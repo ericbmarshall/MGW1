@@ -1,0 +1,35 @@
+<StepTypeInfo>
+
+    <StepType ID="1">
+        <Name>Message Popup</Name>
+        <Argument ID="1">
+            <Destination>Message text</Destination>
+            <Type>String</Type>
+        </Argument>
+    </StepType>
+
+    <StepType ID="2">
+        <Name>Numeric Measurement</Name>
+        <Argument ID="1">
+            <Destination>Action</Destination>
+            <Type>String</Type>
+        </Argument>
+        <Argument ID="2">
+            <Destination>Low Limit</Destination>
+            <Type>Real</Type>
+        </Argument>
+         <Argument ID="3">
+            <Destination>High Limit</Destination>
+            <Type>Real</Type>
+        </Argument>
+    </StepType>
+
+    <StepType ID="3">
+        <Name>Comment</Name>
+        <Argument ID="1">
+            <Destination>Text</Destination>
+            <Type>String</Type>
+        </Argument>
+    </StepType>
+
+</StepTypeInfo>
