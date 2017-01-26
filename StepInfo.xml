@@ -31,5 +31,14 @@
             <Type>String</Type>
         </Argument>
     </StepType>
+	
+	<StepType ID="3">
+        <Name>Added for Git test</Name>
+        <Argument ID="1">
+            <Destination>Git</Destination>
+            <Type>String</Type>
+        </Argument>
+    </StepType>
+
 
 </StepTypeInfo>
